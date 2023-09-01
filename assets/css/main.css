@@ -4687,3 +4687,13 @@ input, select, textarea {
 		}
 
 	}
+
+.company-date {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.video.fit {
+	width: 100%;
+}
