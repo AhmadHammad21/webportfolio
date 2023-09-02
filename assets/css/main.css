@@ -4698,7 +4698,7 @@ input, select, textarea {
 .video.fit {
 	margin: 2.5rem 0;
 	height: 300px;
-	width: 580px;
+	width: 100%;
 }
 
 .li-skills {
