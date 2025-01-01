@@ -290,7 +290,9 @@ input, select, textarea {
 	input, select, textarea {
 		color: #212931;
 	}
-
+	.title{
+		transition: all 0.3s;
+	}
 	a {
 		color: #212931;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
@@ -300,6 +302,11 @@ input, select, textarea {
 			border-bottom-color: transparent;
 			color: #18bfef !important;
 		}
+		.title:hover {
+			border-bottom-color: transparent;
+			color: #18bfef !important;
+		}
+		
 
 	strong, b {
 		color: #212931;
@@ -4704,3 +4711,16 @@ input, select, textarea {
 .li-skills {
 	text-align: left;
 }
+
+/* Style external links */
+a.external-link::after {
+	font-size: 0.8em;
+	color: inherit;
+  }
+  
+  /* Optionally style the link differently */
+  a.external-link {
+	text-decoration: underline;
+	color: #0077b5; /* LinkedIn blue */
+  }
+  
